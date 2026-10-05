@@ -11,12 +11,13 @@ dependencies = [
     "black>=26.5.1",
     "isort>=9.0.2",
     "langchain>=1.4.3",
+    "langchain-ollama>=1.1.0",
     "langchain-openai>=1.6.7",
     "python-dotenv>=1.2.4",
 ]
 
 [project.scripts]
-openai-repo = "openai_repo:main"
+openai-repo = "openai_repo.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.22,<0.13.0"]
